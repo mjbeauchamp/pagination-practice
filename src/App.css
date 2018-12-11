@@ -37,6 +37,49 @@
   opacity: 1;
 }
 
+.current-page-number {
+  color: blue;
+}
+
+h2,
+h3,
+.show-page-section {
+  display: inline;
+  margin: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.pagination-section {
+  margin: 50px 0px;
+  position: relative;
+}
+
+.pagination-popup {
+  position: absolute;
+  bottom: 60px;
+  left: 500px;
+  width: 500px;
+  background: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+li:hover {
+  background: gray;
+}
+
 /* @keyframes show-image {
   from {
     opacity: 0;
