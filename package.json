@@ -2,9 +2,15 @@
   "name": "pagination-practice",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:4000",
+  "main": "server/index.js",
   "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-lazyload": "^2.3.0",
     "react-scripts": "2.1.1"
   },
   "scripts": {
