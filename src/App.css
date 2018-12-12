@@ -62,7 +62,9 @@ h3,
   bottom: 60px;
   left: 500px;
   width: 500px;
+  height: 300px;
   background: white;
+  overflow: scroll;
 }
 
 ul {
@@ -74,6 +76,7 @@ ul {
 li {
   border: 1px solid black;
   padding: 5px;
+  height: 70px;
 }
 
 li:hover {
